@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;1,900&family=Libre+Baskerville:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+body{
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color:rgb(247, 232, 232);
+}
+
+i{
+  color:white;
+  width: 100%
+}
+
+a{
+  color: white;
+}
+
+.icons{
+  width: 100px
+}
+
+
+.label{
+  color:  rgb(20, 62, 177);
+  text-align: center;
+}
+
+.navItem{
+  width: 100%;
+  padding: 1vh;
+}
+.navbar{
+  margin-right: 3vw;
+}
+
+.logo{
+  border-radius: 50%;
+  height: 10vw;
+  width: 10vw;
+  margin: 1vh;
+}
+
+div.adCard{
+  position: relative;
+  width:100%;
+  height: auto;
+  text-align: center;
+  margin-bottom: 3vh;
+}
+
+div.adImage img{
+  width: 60%
+
+}
+
+div.adTitle{
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  background: white;
+  width: 30%;
+  height: auto;
+  color: black;
+}
+
+div.jumbo{
+  position: relative;
+  width:100%;
+  text-align: center;
+  color: white;
+}
+
+div.jumboTitle{
+ margin-top: 5%;
+}
+div.jumboTitle h1{
+  font-family: 'Dancing Script', cursive;
+    font-size: 10vw;  text-align: center;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+div.jumboTitle p{
+  padding: 3vw;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(255, 208, 241);
+  font-size:2.5vw; font-family: 'Fira Sans', sans-serif;
+font-family: 'Libre Baskerville', serif;
+}
+.topNav{
+  width: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+.example{
+  max-width: 100%;
+  margin-top: 3%;
+  margin-bottom: 10%;
+}
+
+.examplePic{
+  width: 30%;
+  margin: 1vw;
+  overflow: hidden;
+  text-align: center;
+
+}
+
+.carouselImage{
+  width: auto;
+  height: 50vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+/* 
+.carouselText{
+  position: absolute;
+  top: 50%;
+  width: 20%;
+  height: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.carouselHeader{
+  position: absolute;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+.form{
+  margin-top: 3vh;
+  /* display: block; */
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+
+.footer{
+  border-top: orangered 1px solid;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 5px;
+  font-size: x-large;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 25px;
+  color: orangered;
+  background-color: white;
+}
