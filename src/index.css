@@ -81,9 +81,8 @@ div.adTitle p{
 
 
 .button{
-  max-width: 50%;
   margin-top: 1vh;
-  font-size: 1vh;
+  font-size: 2vh;
   padding: 1vh;
   background-color: #9ba179;
 }
