@@ -14,7 +14,7 @@ const Example = (props) => {
 
     const items = [
         {
-          src: "./images/IMG_8671.jpg",
+          src: "./images/1.jpg",
           altText: 'luxury picnic'
          
         },

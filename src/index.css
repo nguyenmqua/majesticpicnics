@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;1,900&family=Libre+Baskerville:ital@1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
-* { 
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');* { 
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -86,6 +84,8 @@ div.adTitle p{
   max-width: 50%;
   margin-top: 1vh;
   font-size: 1vh;
+  padding: 1vh;
+  background-color: #9ba179;
 }
 
 
@@ -107,11 +107,7 @@ div.jumboTitle{
  margin-top: 5%;
 }
 div.jumboTitle h1{
-  font-family: 'Noto Serif', serif;    font-size: 10vw;  text-align: center;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: white;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-family: 'PT Sans', sans-serif;  
 
 }
 
@@ -120,9 +116,6 @@ div.jumboTitle h1{
 div.jumboTitle p{
   padding: 5vw;
   color: white;
-  /* -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: white;
-  font-size: 4vw; font-family: 'Fira Sans', sans-serif; */
 font-family: 'Libre Baskerville', serif;
 }
 .topNav{

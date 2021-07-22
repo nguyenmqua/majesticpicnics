@@ -1,5 +1,5 @@
 import React from "react";
-import image1 from "../../assets/img/sample2/IMG_9978.jpg";
+import image1 from "../../assets/img/sample2/1.jpg";
 import { Button } from "reactstrap";
 
 const AdCard = () => {
@@ -16,7 +16,7 @@ const AdCard = () => {
             From birthdays, baby showers, bachelorette, bridal shower, propsal,
             engagement party, anniversaries and more!
           </p>
-          <Button className="button" color="primary">
+          <Button className="button" >
             <a href="/contact">Book Your Picnics Today!</a>
           </Button>
         </div>
