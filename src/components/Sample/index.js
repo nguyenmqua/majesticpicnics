@@ -4,7 +4,6 @@ import {Container, Col, Row} from  "reactstrap";
 const Sample = (props) =>(
     
     <div className="example">
-        <Container>
         <Col sm="12">
           <Row>
             <img className = "examplePic" src ={props.image1} />
@@ -18,7 +17,6 @@ const Sample = (props) =>(
           <img className = "examplePic" src ={props.image6} />
             </Row>
         </Col>
-      </Container>
       </div>
 )
 

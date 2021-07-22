@@ -13,11 +13,13 @@ import image9 from "../assets/img/sample2/IMG_0158.jpg";
 import image10 from "../assets/img/sample2/IMG_0162.jpg";
 import image11 from "../assets/img/sample2/IMG_9978.jpg";
 import AdCard  from "../components/AdCard";
+import { Container } from "reactstrap";
 
 const Main = () => {
   return (
     <>
       <Jumbo />
+      <Container className="main">
       <Sample
         image1={image1}
         image2={image2}
@@ -35,7 +37,7 @@ const Main = () => {
         image6={image11}
       />
       <AdCard />
-
+      </Container>
     </>
   );
 };

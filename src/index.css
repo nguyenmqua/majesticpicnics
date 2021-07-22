@@ -1,16 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;1,900&family=Libre+Baskerville:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body{
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+box-sizing: border-box;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  
   background-size: cover;
-  background-color:rgb(247, 232, 232);
+  background-color: #fde9d7 ;
+
 }
 
 i{
   color:white;
-  width: 100%
 }
 
 a{
@@ -22,10 +32,6 @@ a{
 }
 
 
-.label{
-  color:  rgb(20, 62, 177);
-  text-align: center;
-}
 
 .navItem{
   width: 100%;
@@ -42,27 +48,51 @@ a{
   margin: 1vh;
 }
 
-div.adCard{
+div.adWrapper{
   position: relative;
-  width:100%;
-  height: auto;
-  text-align: center;
-  margin-bottom: 3vh;
+  height: 700px;
 }
 
 div.adImage img{
-  width: 60%
-
+  max-width: 80%;
+  height: auto;
+  display: block;
 }
+
 
 div.adTitle{
   position: absolute;
-  top: 10%;
+  bottom: 5%;
   right: 10%;
-  background: white;
-  width: 30%;
-  height: auto;
+  background-color: white ;
   color: black;
+  max-height: 350px;
+  max-width: 250px;
+  width: auto;
+  padding:5%;
+}
+
+div.adTitle h3{
+ font-size: 5vh
+}
+
+div.adTitle p{
+  font-size: 2vh
+ }
+
+
+.button{
+  max-width: 50%;
+  margin-top: 1vh;
+  font-size: 1vh;
+}
+
+
+
+.main{
+  max-width: 100%;
+  overflow:visible;
+  height: auto;
 }
 
 div.jumbo{
@@ -85,12 +115,14 @@ div.jumboTitle h1{
 
 }
 
+
+
 div.jumboTitle p{
-  padding: 3vw;
+  padding: 5vw;
   color: white;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: rgb(255, 208, 241);
-  font-size:2.5vw; font-family: 'Fira Sans', sans-serif;
+  font-size: 4vw; font-family: 'Fira Sans', sans-serif;
 font-family: 'Libre Baskerville', serif;
 }
 .topNav{
@@ -111,7 +143,7 @@ font-family: 'Libre Baskerville', serif;
   margin: 1vw;
   overflow: hidden;
   text-align: center;
-
+  border: 1px white solid;
 }
 
 .carouselImage{
@@ -122,22 +154,6 @@ font-family: 'Libre Baskerville', serif;
   margin-right: auto;
   
 }
-/* 
-.carouselText{
-  position: absolute;
-  top: 50%;
-  width: 20%;
-  height: 30%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.carouselHeader{
-  position: absolute;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-} */
 
 img{
   max-width: 100%;
@@ -146,13 +162,11 @@ img{
 
 .form{
   margin-top: 3vh;
-  /* display: block; */
+  display: block;
   margin-left: auto;
   margin-right: auto;
 
 }
-
-
 
 .footer{
   border-top: orangered 1px solid;
@@ -165,5 +179,6 @@ img{
   font-family: 'Dancing Script', cursive;
   font-size: 25px;
   color: orangered;
-  background-color: white;
+  background-color: #fde9d7 ;
 }
+

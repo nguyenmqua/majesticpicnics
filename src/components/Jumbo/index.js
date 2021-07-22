@@ -9,9 +9,9 @@ const Jumbo = () =>(
             <div className="topNav">
             <TopNav /> <div className="jumboTitle">
               <h1 className="title">Majestic Picnics</h1>
-              <p className="description"> -Luxury picnics for any occasion</p>
+              <p className="description"> Luxury picnics for any occasion</p>
              
-                <Button color="primary"><a href="/contact" >Contact Us</a></Button>
+                <Button color="primary"><a href="/contact" >Book A Picnic</a></Button>
         
             </div></div>
            
