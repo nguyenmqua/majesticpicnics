@@ -11,7 +11,7 @@ const Jumbo = () =>(
               <h1 className="title">MAJESTIC PICNIC</h1>
               <p className="description"> Luxury picnics for any occasion</p>
              
-                <Button ><a href="/contact" >Book A Picnic</a></Button>
+                <Button className="button"><a href="/contact" >Book A Picnic</a></Button>
         
             </div></div>
            
