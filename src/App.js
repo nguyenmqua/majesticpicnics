@@ -5,7 +5,8 @@ import Contact from "./pages/Contact"
 import Main from "./pages/Main"
 import Footer from "./components/Footer"
 import TopNav from "./components/TopNav"
-
+import Gallery from './pages/Gallery';
+import FAQ from './pages/FAQ';
 const App = () => {
   return (
       <Router>
@@ -13,6 +14,8 @@ const App = () => {
             <Switch>
               <Route exact path="/" component={Main} />
               <Route exact path="/contact" component={Contact} />
+              <Route exact path="/gallery" component={Gallery}/>
+              <Route exact path="/faq" component={FAQ} />
               <Route render={NoMatch} />
             </Switch>
           <Footer />

@@ -33,12 +33,22 @@ const Navigation = () => {
            <NavItem className="navItem">
               <a  href="/contact">Contact Us</a>
             </NavItem>
-             <NavItem className="navItem">
-                <a href="https://www.instagram.com/majestic.picnics/?hl=en"><i class="fab fa-instagram fa-2x"></i></a>
+            <NavItem className="navItem">
+              <a  href="/gallery">Gallery</a>
             </NavItem>
             <NavItem className="navItem">
-            <a href="mailto:majesticpicnicss@gmail.com"><i className="far fa-paper-plane fa-2x" ></i></a>
+              <a  href="/faq">F.A.Q/Info</a>
             </NavItem>
+             <NavItem className="navItem">
+                <a href="https://www.instagram.com/majestic.picnics/?hl=en"><i class="fab fa-instagram fa-1x"></i></a>
+            </NavItem>
+            <NavItem className="navItem">
+            <a href="mailto:majesticpicnicss@gmail.com"><i className="far fa-paper-plane fa-1x" ></i></a>
+            </NavItem>
+            <NavItem className="navItem">
+            <a href="https://vm.tiktok.com/ZMdnvwgYK/">
+      <i class="fab fa-tiktok fa-1x"></i>
+      </a>            </NavItem>
           </Nav>
         </Collapse>
       </Navbar>
