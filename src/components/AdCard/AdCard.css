@@ -1,0 +1,33 @@
+div.adWrapper {
+    position: relative;
+    height: 700px;
+    margin-top: 20px;
+  }
+  
+  div.adImage img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    border: 3px #e1c699 solid;
+
+  }
+  
+  div.adTitle {
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+    background-color: #e1c699;
+    color: white;
+    max-height: 350px;
+    max-width: 250px;
+    width: auto;
+    padding: 5%;
+  }
+  
+  div.adTitle h3 {
+    font-size: 5vh;
+  }
+  
+  div.adTitle p {
+    font-size: 2vh;
+  }
