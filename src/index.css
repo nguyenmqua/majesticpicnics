@@ -1,176 +1,105 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;1,900&family=Libre+Baskerville:ital@1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');* { 
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,100&display=swap');img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 body{
-  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
--moz-box-sizing: border-box;    /* Firefox, other Gecko */
-box-sizing: border-box;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  
-  background-size: cover;
-  background-color: #fde9d7 ;
-
+  overflow: hidden;
 }
-
-i{
-  color:white;
-}
-
-a{
-  color: white;
-}
-
-.icons{
-  width: 100px
-}
-
-
-
-.navItem{
-  width: 100%;
-  padding: 1vh;
-}
-.navbar{
-  margin-right: 3vw;
-}
-
-.logo{
-  border-radius: 50%;
-  height: 10vw;
-  width: 10vw;
-  margin: 1vh;
-}
-
-div.adWrapper{
-  position: relative;
-  height: 700px;
-}
-
-div.adImage img{
-  max-width: 80%;
-  height: auto;
-  display: block;
-}
-
-
-div.adTitle{
-  position: absolute;
-  bottom: 5%;
-  right: 10%;
-  background-color: white ;
-  color: black;
-  max-height: 350px;
-  max-width: 250px;
-  width: auto;
-  padding:5%;
-}
-
-div.adTitle h3{
- font-size: 5vh
-}
-
-div.adTitle p{
-  font-size: 2vh
- }
-
-
-.button{
-  margin-top: 1vh;
-  font-size: 2vh;
-  padding: 1vh;
-  background-color: #9ba179;
-}
-
-
-
-.main{
-  max-width: 100%;
-  overflow:visible;
-  height: auto;
-}
-
-div.jumbo{
-  position: relative;
-  width:100%;
-  text-align: center;
-  color: white;
-}
-
-div.jumboTitle{
- margin-top: 5%;
-}
-div.jumboTitle h1{
-  font-family: 'PT Sans', sans-serif;  
-
-}
-
-
-
-div.jumboTitle p{
-  padding: 5vw;
-  color: white;
-font-family: 'Libre Baskerville', serif;
-}
-.topNav{
+.topNav {
   width: 100%;
   position: absolute;
   top: 0%;
   left: 0%;
 }
 
-.example{
-  max-width: 100%;
-  margin-top: 3%;
-  margin-bottom: 10%;
+.navibar{
+  border-bottom:  #e1c699 1px solid;
 }
 
-.examplePic{
-  width: 30%;
-  margin: 1vw;
-  overflow: hidden;
-  text-align: center;
-  border: 1px white solid;
+
+.logo {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin: 1vh;
 }
 
-.carouselImage{
-  width: auto;
-  height: 50vw;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.jumbo{
+  margin-top: 10px;
+  background:white;
+ width:100%;
+ height: auto;
+}
+
+.jumboTitle{
+  position: relative;
+  background: #e1c699;
+  padding: 2vw;
+  color: white;
   
 }
 
-img{
-  max-width: 100%;
-  height: auto;
+.jumboText{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.titleDiv{
+  margin-left: 15px;
+  margin-bottom: 20px;
+  font-family: 'Lato', sans-serif;
+}
+.leafDiv{
+  width:100%;
+  margin-left: px;
+  margin-bottom: 2px
+}
+.jumboButton{
+  margin-top: 50px;
+  margin-left: 15px; 
 }
 
-.form{
-  margin-top: 3vh;
-  display: block;
+.descriptionDiv{
+  margin-left: 20px;
+}
+
+.leaf{
   margin-left: auto;
   margin-right: auto;
-
+  width: 40px;
+  height: 40px;
+  color: white;
 }
 
-.footer{
-  border-top: orangered 1px solid;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  padding: 5px;
-  font-size: x-large;
-  text-align: center;
-  font-family: 'Dancing Script', cursive;
-  font-size: 25px;
-  color: orangered;
-  background-color: #fde9d7 ;
+.button {
+  background: #e1c699;
+  border: 1px white solid;
 }
 
+
+
+/* .description{
+  margin-bottom: 10px;
+} */
+
+.button{
+  border-radius: 0;
+}
+
+.titleDiv h4{
+  letter-spacing:0.43em;
+  margin-bottom: 10px;
+}
+
+.jumboImage{
+  background: green;
+}
+
+.image-fit {
+  width: 120%;
+  height: auto;
+  object-fit: fill;
+}
