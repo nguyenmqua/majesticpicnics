@@ -1,0 +1,18 @@
+.topNav {
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+  }
+  
+  .navibar{
+    width: 100%;
+    border-bottom:  #e1c699 5px solid;
+  }
+
+  .logo {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 1vh;
+  }

@@ -4,9 +4,9 @@
 }
 
 body{
-  overflow: hidden;
+  overflow: scroll;
 }
-.topNav {
+/* .topNav {
   width: 100%;
   position: absolute;
   top: 0%;
@@ -14,22 +14,25 @@ body{
 }
 
 .navibar{
-  border-bottom:  #e1c699 1px solid;
-}
+  width: 100%;
+  border-bottom:  #e1c699 5px solid;
+} */
 
 
-.logo {
+
+/* .logo {
   border-radius: 50%;
   height: 100px;
   width: 100px;
   margin: 1vh;
-}
+} */
 
 .jumbo{
-  margin-top: 10px;
+  margin-top: 20px;
   background:white;
  width:100%;
  height: auto;
+ margin-left: 20px;
 }
 
 .jumboTitle{
@@ -54,7 +57,7 @@ body{
 }
 .leafDiv{
   width:100%;
-  margin-left: px;
+  margin-left: 70px;
   margin-bottom: 2px
 }
 .jumboButton{
@@ -102,4 +105,36 @@ body{
   width: 120%;
   height: auto;
   object-fit: fill;
+}
+
+
+div.adWrapper {
+  position: relative;
+  height: 700px;
+}
+
+div.adImage img {
+  max-width: 80%;
+  height: auto;
+  display: block;
+}
+
+div.adTitle {
+  position: absolute;
+  bottom: 5%;
+  right: 10%;
+  background-color: white;
+  color: black;
+  max-height: 350px;
+  max-width: 250px;
+  width: auto;
+  padding: 5%;
+}
+
+div.adTitle h3 {
+  font-size: 5vh;
+}
+
+div.adTitle p {
+  font-size: 2vh;
 }

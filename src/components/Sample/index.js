@@ -1,23 +1,16 @@
 import React from "react";
-import {Container, Col, Row} from  "reactstrap";
+import { Col, Row } from "reactstrap";
+import "./Sample.css";
+const Sample = (props) => (
+  <div className="example">
+    <Row>
+      <Col sm="12">
+        <img className="examplePic" src={props.image1} />
+        <img className="examplePic" src={props.image2} />
+        <img className="examplePic" src={props.image3} />
+      </Col>
+    </Row>
+  </div>
+);
 
-const Sample = (props) =>(
-    
-    <div className="example">
-        <Col sm="12">
-          <Row>
-            <img className = "examplePic" src ={props.image1} />
-            <img className = "examplePic" src ={props.image2} />
-            <img className = "examplePic" src ={props.image3} />
-
-          </Row>
-          <Row>
-          <img className = "examplePic" src ={props.image4} />
-          <img className = "examplePic" src ={props.image5} />
-          <img className = "examplePic" src ={props.image6} />
-            </Row>
-        </Col>
-      </div>
-)
-
-export default Sample
+export default Sample;

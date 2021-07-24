@@ -8,7 +8,7 @@ import {
   NavItem,
 } from "reactstrap";
 import Logo from "../../assets/img/logo.jpg";
-
+import "./TopNav.css"
 
 const Navigation = () => {
 
