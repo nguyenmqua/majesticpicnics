@@ -12,17 +12,17 @@ body{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-color: b1957d;
+  background-color: #faf8eb;
   overflow-x: hidden;
   overflow-y: scroll;
 }
 
 a{
-  color:#b1957d
+  color:#faf8eb
 }
 
 .footer {
-  border-top: #b1957d 5px solid;
+  border-top: #faf8eb 5px solid;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -31,5 +31,5 @@ a{
   text-align: center;
   font-family: "Dancing Script", cursive;
   font-size: 25px;
-  background-color: b1957d;
+  background-color: #faf8eb;
 }
