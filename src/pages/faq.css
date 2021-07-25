@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+div.faqtitle {
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    color: #e1c699;   
+    text-shadow: white; 
+    padding: 10px;
+}
