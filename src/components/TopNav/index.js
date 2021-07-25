@@ -8,10 +8,9 @@ import {
   NavItem,
 } from "reactstrap";
 import Logo from "../../assets/img/logo.jpg";
-import "./TopNav.css"
+import "./TopNav.css";
 
 const Navigation = () => {
-
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => {
@@ -28,27 +27,32 @@ const Navigation = () => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem className="navItem">
-              <a  href="/">Home</a>
-            </NavItem >
-           <NavItem className="navItem">
-              <a  href="/contact">Contact Us</a>
+              <a href="/">Home</a>
             </NavItem>
             <NavItem className="navItem">
-              <a  href="/gallery">Gallery</a>
+              <a href="/contact">Contact Us</a>
             </NavItem>
             <NavItem className="navItem">
-              <a  href="/faq">F.A.Q/Info</a>
-            </NavItem>
-             <NavItem className="navItem">
-                <a href="https://www.instagram.com/majestic.picnics/?hl=en"><i class="fab fa-instagram fa-1x"></i></a>
+              <a href="/gallery">Gallery</a>
             </NavItem>
             <NavItem className="navItem">
-            <a href="mailto:majesticpicnicss@gmail.com"><i className="far fa-paper-plane fa-1x" ></i></a>
+              <a href="/faq">F.A.Q/Info</a>
             </NavItem>
             <NavItem className="navItem">
-            <a href="https://vm.tiktok.com/ZMdnvwgYK/">
-      <i class="fab fa-tiktok fa-1x"></i>
-      </a>            </NavItem>
+              <a href="https://www.instagram.com/majestic.picnics/?hl=en">
+                <i class="fab fa-instagram fa-1x"></i>
+              </a>
+            </NavItem>
+            <NavItem className="navItem">
+              <a href="mailto:majesticpicnicss@gmail.com">
+                <i class="far fa-envelope"></i>
+              </a>
+            </NavItem>
+            <NavItem className="navItem">
+              <a href="https://vm.tiktok.com/ZMdnvwgYK/">
+                <i class="fab fa-tiktok fa-1x"></i>
+              </a>{" "}
+            </NavItem>
           </Nav>
         </Collapse>
       </Navbar>

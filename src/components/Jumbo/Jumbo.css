@@ -1,8 +1,9 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100&family=Rajdhani:wght@300&display=swap');
 .jumbo{
     margin-top: 20px;
     background:white;
-   max-width:100%;
+   width:100%;
    height: auto;
    margin-left: 0px;
   }
@@ -10,44 +11,31 @@
   .jumboTitle{
     position: relative;
     background: #e1c699;
-    padding: 2vw;
     color: white;
     
   }
   
   .jumboText{
-    margin: 0;
+    margin: 2px;
     position: absolute;
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
   }
   .titleDiv{
-    margin-left: 10px;
+    width: 80%;
     margin-bottom: 20px;
-    font-family: 'Lato', sans-serif;
-  }
-  .leafDiv{
-    width:100%;
-    margin-left: 70px;
-    margin-bottom: 2px
-  }
+    font-family: 'Rajdhani', sans-serif;  }
+  
   .jumboButton{
-    margin-top: 50px;
-    margin-left: 10px; 
+    font-family: 'Bitter', serif;;
   }
   
   .descriptionDiv{
-    margin-left: 20px;
+    font-family: 'Bitter', serif;;
   }
   
-  .leaf{
-    margin-left: auto;
-    margin-right: auto;
-    width: 40px;
-    height: 40px;
-    color: white;
-  }
+  
 
   .jumboImage{
     width:100%;
@@ -56,13 +44,19 @@
   .button {
     background: #e1c699;
     border: 1px white solid;
+    font-size: smaller;
   }
 
   .titleDiv h4{
     letter-spacing:0.43em;
-    margin-bottom: 10px;
+    font-size: larger;
   }
 
   .image-fit {
     object-fit: fill;
+  }
+
+    a
+{
+  padding:0px;
   }

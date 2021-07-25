@@ -1,17 +1,24 @@
 import React from "react";
+import "./Footer.css"
 
 const Footer = () => {
   return (
     <div className="footer">
+      <div className= "footerIcons">
       <a href="https://www.instagram.com/majestic.picnics/?hl=en">
-        <i class="fab fa-instagram"></i>
+        <i class="fab footerIcon fa-instagram"></i>
       </a>{" "}
       <a href="mailto:majesticpicnicss@gmail.com">
-        <i className="far fa-paper-plane"></i>
+      <i class="far footerIcon fa-envelope"></i>
       </a>
       <a href="https://vm.tiktok.com/ZMdnvwgYK/">
-      <i class="fab fa-tiktok"></i>
+      <i class="fab footerIcon fa-tiktok"></i>
       </a>
+      </div>
+      <div className="copyright">
+        © Majestic Picnics
+      </div>
+      
     </div>
   );
 };
