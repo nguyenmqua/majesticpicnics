@@ -15,11 +15,11 @@ body {
 }
 
 i {
-  color: #faf8eb;
+  color: #f2e3dc;
 }
 
 a {
-  color: #faf8eb;
+  color: #f2e3dc;
 }
 
 .icons {
@@ -56,7 +56,7 @@ div.adTitle {
   position: absolute;
   bottom: 5%;
   right: 10%;
-  background-color: #faf8eb;
+  background-color: #f2e3dc;
   color: black;
   max-height: 350px;
   max-width: 250px;
@@ -88,7 +88,7 @@ div.adTitle p {
 div.jumbo {
   width: 100%;
   height: 200px;
-  background: #faf8eb;
+  background: #f2e3dc;
 }
 
 div.jumboTitle {
@@ -191,7 +191,7 @@ img {
     position: absolute;
     bottom: 0%;
     right: 50%;
-    background-color: #faf8eb ;
+    background-color: #f2e3dc ;
     color: black;
     max-height: 350px;
     max-width: 250px;

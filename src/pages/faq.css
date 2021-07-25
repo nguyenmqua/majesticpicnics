@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
 div.faqtitle {
     text-align: center;
-    font-family: 'Rajdhani', sans-serif;
-    color: #faf8eb;   
+    font-family: 'STIX Two Math', serif;
+    color: #f2e3dc;   
     text-shadow: white; 
     padding: 10px;
 }
