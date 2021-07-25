@@ -1,8 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
 div.faqtitle {
     text-align: center;
     font-family: 'Rajdhani', sans-serif;
-    color: #e1c699;   
+    color: #faf8eb;   
     text-shadow: white; 
     padding: 10px;
+}
+
+.collapseButton{
+    text-align: left;
+}
+
+.collapseBody{
+    font-family: 'STIX Two Math', serif;
+    font-size: small;
 }

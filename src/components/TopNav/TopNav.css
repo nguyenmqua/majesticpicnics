@@ -7,7 +7,7 @@
   
   .navibar{
     width: 100%;
-    border-bottom:  #e1c699 5px solid;
+    border-bottom:  #faf8eb 5px solid;
   }
 
   .logo {
@@ -18,5 +18,5 @@
   }
 
  .navbar-toggler{
-    background-color:#e1c699 ;
+    background-color:#faf8eb ;
   }

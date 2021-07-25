@@ -1,5 +1,6 @@
 import React from "react";
 import Collapses from "../components/Collapse";
+import Collpases2 from "../components/Collapse2"
 import "./faq.css"
 
 
@@ -25,10 +26,7 @@ const FAQ = () => {
       question: "Do you do indoor picnics",
       answer: "Yes, I understand we live in sate where weather is unexpected.",
   },
-  {
-      question: "Refund Policy",
-      answer: "	A 50% deposit is required to secure the date and the full amount must be paid upon arrival. I cannot promise a spot if the deposit hasn’t been made. 72hr cancellation notice for a partial refund. If I do not receive a notice your deposit will be nonrefundable. The picnic is held for 2 hours. If you surpass the hour there will be an additional $40 fee.",
-  }, 
+  
  
 ]
 
@@ -40,6 +38,7 @@ const FAQ = () => {
     return (
     <Collapses question={list.question} answer={list.answer}/>
     )})}
+    <Collpases2 />
     </>
   );
 };

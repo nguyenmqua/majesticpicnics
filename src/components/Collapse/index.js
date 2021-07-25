@@ -9,7 +9,7 @@ const Collapses = (props) => {
 
   return (
     <div>
-      <Button className="button" onClick={toggle} block>{props.question}</Button>
+      <Button className="button collapseButton" onClick={toggle} block>{props.question}</Button>
       <Collapse isOpen={isOpen}>
         <Card>
           <CardBody className="collapseBody">
