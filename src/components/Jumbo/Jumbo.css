@@ -1,63 +1,67 @@
-@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100&family=Rajdhani:wght@300&display=swap');
-.jumbo{
-    margin-top: 20px;
-    background:white;
-   width:100%;
-   height: auto;
-   margin-left: 0px;
-  }
-  
-  .jumboTitle{
-    position: relative;
-    background: rgba(230,218,200);
-    color: #d2c6b1;
-    
-  }
-  
-  .jumboText{
-    margin: 2px;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-  }
-  .titleDiv{
-    width: 80%;
-    margin-bottom: 20px;
-    font-family: 'Rajdhani', sans-serif;  }
-  
-  .jumboButton{
-    font-family: 'Bitter', serif;;
-  }
-  
-  .descriptionDiv{
-    font-family: 'Bitter', serif;;
-  }
-  
-  
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@100&family=Rajdhani:wght@300&display=swap");
+.jumbo {
+  margin-top: 20px;
+  background: white;
+  width: 100%;
+  height: auto;
+  margin-left: 0px;
+}
 
-  .jumboImage{
+.jumboTitle {
+  position: relative;
+  background: rgba(230, 218, 200);
+  color: #ae977f;
+}
+
+.jumboText {
+  margin: 2px;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.titleDiv {
+  width: 80%;
+  margin-bottom: 20px;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.jumboButton {
+  font-family: "Bitter", serif;
+}
+
+.descriptionDiv {
+  font-family: "Bitter", serif;
+}
+
+.jumboImage{
     width:100%;
-  }
-  
-  .button {
-    background: rgba(230,218,200);
-    border: 1px white solid;
-    font-size: smaller;
-    color: #d2c6b1;
-  }
+  } 
 
-  .titleDiv h4{
-    letter-spacing:0.43em;
-    font-size: larger;
-  }
+.button {
+  background: rgba(230, 218, 200);
+  border: 1px white solid;
+  font-size: smaller;
+  color: #ae977f;
+}
 
-  .image-fit {
-    object-fit: fill;
-  }
+.titleDiv h4 {
+  letter-spacing: 0.43em;
+  font-size: larger;
+}
 
-    a
-{
-  padding:0px;
+.image-fit {
+  object-fit: fill;
+}
+
+a {
+  padding: 0px;
+}
+
+@media screen and (max-width: 600px) {
+  img{
+    max-width: 20%; /* The width is 100%, when the viewport is 800px or smaller */
+    height:auto;
   }
+}
