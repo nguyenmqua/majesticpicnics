@@ -19,7 +19,7 @@ div.adWrapper {
     position: absolute;
     bottom: 5%;
     right: 10%;
-    background: #a48f72;
+    background: rgba(230,218,200);
     color: white;
     max-height: 350px;
     max-width: 250px;

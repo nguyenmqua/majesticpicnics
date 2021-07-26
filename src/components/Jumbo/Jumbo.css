@@ -10,7 +10,7 @@
   
   .jumboTitle{
     position: relative;
-    background: #a48f72;
+    background: rgba(230,218,200);
     color: white;
     
   }
@@ -42,7 +42,7 @@
   }
   
   .button {
-    background: #a48f72;
+    background: rgba(230,218,200);
     border: 1px white solid;
     font-size: smaller;
     color: white;

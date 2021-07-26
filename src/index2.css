@@ -88,7 +88,7 @@ div.adTitle p {
 div.jumbo {
   width: 100%;
   height: 200px;
-  background: #a48f72;
+  background: rgba(230,218,200);
 }
 
 div.jumboTitle {
@@ -109,7 +109,7 @@ div.jumboImage {
 }
 
 /* div.jumboTitle{
- background: #a48f72;
+ background: rgba(230,218,200);
  color: black
 }
 div.jumboTitle h1{
