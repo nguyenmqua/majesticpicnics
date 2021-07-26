@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100&family=Rajdhani:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
-div.adWrapper {
+div.aboutWrapper {
     position: relative;
     height: 700px;
     margin-top: 20px;
   }
   
-  div.adImage img {
+  div.aboutImage img {
     max-width: 80%;
     height: auto;
     display: block;
@@ -14,10 +14,10 @@ div.adWrapper {
 
   }
   
-  div.adTitle {
+  div.aboutTitle {
     font-family: 'Rajdhani', sans-serif;
     position: absolute;
-    bottom: 10%;
+    bottom: 5%;
     right: 10%;
     background: rgba(230,218,200);
     color: white;
@@ -27,10 +27,10 @@ div.adWrapper {
     padding: 5%;
   }
   
-  div.adTitle h3 {
+  div.aboutTitle h3 {
     font-size: 5vh;
   }
   
-  div.adTitle p {
+  div.aboutTitle p {
     font-size: 13px;
   }
