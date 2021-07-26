@@ -8,12 +8,12 @@
     margin-left: 1%;
     max-width: 30%;
     margin: 1%;
-   border: 3px #f2e3dc solid;
+   border: 3px white solid;
   }
 
   .button {
-    background: #f2e3dc;
+    background: #a48f72;
     border: 1px white solid;
-    color: #a48f72
+    color: white
   }
   

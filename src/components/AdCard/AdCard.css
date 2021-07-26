@@ -10,7 +10,7 @@ div.adWrapper {
     max-width: 80%;
     height: auto;
     display: block;
-    border: 3px #f2e3dc solid;
+    border: 3px white solid;
 
   }
   
@@ -19,8 +19,8 @@ div.adWrapper {
     position: absolute;
     bottom: 5%;
     right: 10%;
-    background-color: #f2e3dc;
-    color: #a48f72;
+    background: #a48f72;
+    color: white;
     max-height: 350px;
     max-width: 250px;
     width: auto;
@@ -32,5 +32,5 @@ div.adWrapper {
   }
   
   div.adTitle p {
-    font-size: 2vh;
+    font-size: 13px;
   }

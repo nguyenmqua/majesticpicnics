@@ -10,8 +10,8 @@
   
   .jumboTitle{
     position: relative;
-    background: #f2e3dc;
-    color: #a48f72;
+    background: #a48f72;
+    color: white;
     
   }
   
@@ -42,10 +42,10 @@
   }
   
   .button {
-    background: #f2e3dc;
+    background: #a48f72;
     border: 1px white solid;
     font-size: smaller;
-    color: #a48f72;
+    color: white;
   }
 
   .titleDiv h4{

@@ -22,7 +22,7 @@ a{
 }
 
 .footer {
-  border-top: #f2e3dc 5px solid;
+  border-top: white 5px solid;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -31,5 +31,5 @@ a{
   text-align: center;
   font-family: "Dancing Script", cursive;
   font-size: 25px;
-  background-color: #f2e3dc;
+  background-color: white;
 }

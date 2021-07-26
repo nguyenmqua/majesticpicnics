@@ -12,7 +12,7 @@ const Main = () => {
     <>
       <Container className="main">
         <Jumbo />
-        <Introduction />
+        {/* <Introduction /> */}
         <Sample image1={image1} image2={image2} image3={image3} />
         <AdCard />
       </Container>
