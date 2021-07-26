@@ -1,0 +1,20 @@
+.gallery{
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 20px;
+    background: rgba(230,218,200);
+
+}
+
+.galleryCard{
+    float: left;
+    max-width: 30%;
+    height: auto;
+    background: rgba(230,218,200);
+
+}
+
+.cardImg{
+    background: rgba(230,218,200);
+
+}
