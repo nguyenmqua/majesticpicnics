@@ -13,10 +13,8 @@ const Jumbo = () => (
                 <div className="titleDiv">
                   <h4>PICNICS</h4>
                 </div>
-<div className="descriptionDiv">
-                  <p className="description">
-                    Luxury picnics for any occasion
-                  </p>
+                <div className="descriptionDiv">
+                  <p className="description">Luxury picnics for any occasion</p>
                 </div>
 
                 <div className="jumboButton">
