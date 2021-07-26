@@ -13,12 +13,17 @@
 
   .logo {
     border-radius: 50%;
-    height: 100px;
-    width: 100px;
+    width: 10vh;    height: auto;
     margin: 1vh;
   }
 
  .navbar-toggler{
     background-color:rgba(230,218,200) ;
     border: 1px white solid;
+  }
+
+  @media screen and (min-width: 800px) {
+    .navItem{
+      padding: 10px;
+    }
   }
