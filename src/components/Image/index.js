@@ -1,8 +1,6 @@
 import React from 'react';
-import {
-  Card, CardImg,
-} from 'reactstrap';
-import "./Image.css"
+
+import ModalExample from '../Modal';
 
 const Example = (props) => {
   const images = [
@@ -118,9 +116,8 @@ const Example = (props) => {
   return (
     <div className="gallery">
       {images.map((image)=>
-      <Card className="galleryCard" id={image.id}>
-        <CardImg className="cardImg" top src={image.pic} alt="Picnic" />
-      </Card>
+      <ModalExample src={image.pic} id={image.id} >
+      </ModalExample>
       )} 
     </div>
   );

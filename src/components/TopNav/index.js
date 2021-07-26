@@ -40,17 +40,17 @@ const Navigation = () => {
             </NavItem>
             <NavItem className="navItem">
               <a href="https://www.instagram.com/majestic.picnics/?hl=en">
-                <i class="fab fa-instagram fa-1x"></i>
+                <i className="fab fa-instagram fa-1x"></i>
               </a>
             </NavItem>
             <NavItem className="navItem">
               <a href="mailto:majesticpicnicss@gmail.com">
-                <i class="far fa-envelope"></i>
+                <i className="far fa-envelope"></i>
               </a>
             </NavItem>
             <NavItem className="navItem">
               <a href="https://vm.tiktok.com/ZMdnvwgYK/">
-                <i class="fab fa-tiktok fa-1x"></i>
+                <i className="fab fa-tiktok fa-1x"></i>
               </a>{" "}
             </NavItem>
           </Nav>

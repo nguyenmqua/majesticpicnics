@@ -8,7 +8,12 @@
 
   .navibar{
     width: 100%;
-    border-bottom:  rgba(230,218,200) 5px solid;
+    color: #9b846e;
+    border-bottom: #9b846e 5px solid;
+  }
+
+  .navItem a{
+    float: right;
   }
 
   .logo {
@@ -27,6 +32,7 @@
     .navItem{
       padding: 10px;
       font-size: 24px;
+      
     }
     .logo {
       border-radius: 50%;
