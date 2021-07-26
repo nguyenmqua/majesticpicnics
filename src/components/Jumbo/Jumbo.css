@@ -11,7 +11,7 @@
 .jumboTitle {
   position: relative;
   background: rgba(230, 218, 200);
-  color: #b29a7e;
+  color: #9b846e;
 }
 
 .jumboText {
@@ -43,7 +43,7 @@
   background: rgba(230, 218, 200);
   border: 1px white solid;
   font-size: smaller;
-  color: #b29a7e;
+  color: #9b846e;
 }
 
 .titleDiv h4 {
@@ -59,20 +59,35 @@ a {
   padding: 0px;
 }
 
-@media screen and (min-width: 800px) {
-  img{
-    max-width: 20%; 
-    height:300px;
-  }
+@media screen and (min-width: 600px) {
+
   .jumboImage{
     width:30%;
   } 
 
   .jumboText {
-    margin: 2px;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    height: 50%;
   }
+
+  .titleDiv h4 {
+    letter-spacing: 0.43em;
+    font-size: 40px;
+    margin-bottom: 50px;
+  }
+
+  .descriptionDiv{
+    font-size: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .button{
+    font-size: 20px; 
+  }
+  .jumboButton {
+    margin-left: 25%;
+    margin-right: 25%
+    }
+
+
 }

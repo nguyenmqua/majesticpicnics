@@ -23,7 +23,7 @@
     border: 1px white solid;
   }
 
-  @media screen and (min-width: 800px) {
+  @media screen and (min-width: 600px) {
     .navItem{
       padding: 10px;
       font-size: 24px;
