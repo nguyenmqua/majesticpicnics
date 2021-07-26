@@ -11,7 +11,7 @@
 .jumboTitle {
   position: relative;
   background: rgba(230, 218, 200);
-  color: #ae977f;
+  color: #b29a7e;
 }
 
 .jumboText {
@@ -43,7 +43,7 @@
   background: rgba(230, 218, 200);
   border: 1px white solid;
   font-size: smaller;
-  color: #ae977f;
+  color: #b29a7e;
 }
 
 .titleDiv h4 {
@@ -59,9 +59,20 @@ a {
   padding: 0px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 800px) {
   img{
-    max-width: 20%; /* The width is 100%, when the viewport is 800px or smaller */
-    height:auto;
+    max-width: 20%; 
+    height:300px;
+  }
+  .jumboImage{
+    width:30%;
+  } 
+
+  .jumboText {
+    margin: 2px;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
   }
 }
