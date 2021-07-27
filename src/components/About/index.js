@@ -1,5 +1,5 @@
 import React from "react";
-import image1 from "../../assets/img/sample2/5.jpg";
+import image1 from "../../assets/img/jumbo3.jpg";
 import { Button } from "reactstrap";
 import "./About.css"
 const About = () => {

@@ -1,5 +1,5 @@
 import React from "react";
-import image1 from "../../assets/img/sample/2.jpg";
+import image1 from "../../assets/img/jumbo2.jpg";
 import { Button } from "reactstrap";
 import "./JumboCard.css"
 const jumboCard = () => {
