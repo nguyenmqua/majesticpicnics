@@ -7,13 +7,13 @@ import image3 from "../assets/img/sample/3.jpg";
 import AdCard from "../components/AdCard";
 import { Container } from "reactstrap";
 import About from "../components/About"
+import JumboCard from "../components/jumboCard";
 const Main = () => {
   return (
     <>
       <Container className="main">
-        <Jumbo />
+        <JumboCard />
         <AdCard />
-        <Sample image1={image1} image2={image2} image3={image3} />
         <About />
       </Container>
     </>

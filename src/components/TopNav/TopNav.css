@@ -9,7 +9,7 @@
   .navibar{
     width: 100%;
     color: #9b846e;
-    border-bottom: #9b846e 5px solid;
+    border-bottom:  rgba(230,218,200) 5px solid;
   }
 
   .navItem a{
