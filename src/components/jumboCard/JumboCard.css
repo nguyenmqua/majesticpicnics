@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
 div.jumboWrapper {
     position: relative;
-    height: 500px;
+    height: 600px;
     margin-top: 20px;
   }
   
@@ -11,13 +11,12 @@ div.jumboWrapper {
     height: auto;
     display: block;
     border: 3px white solid;
-
   }
   
   div.jumboTitle {
     font-family: 'Rajdhani', sans-serif;
     position: absolute;
-    bottom: 10%;
+    bottom: 5%;
     right: 10%;
     background: rgba(230,218,200);
     color: #9b846e;
