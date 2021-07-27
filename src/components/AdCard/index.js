@@ -10,7 +10,7 @@ const AdCard = () => {
           <img src={image1} />
       </div>
         <div className="adTitle">
-          <h3> BRING YOUR VISON TO LIFE </h3>
+          <h3> BRING YOUR VISION TO LIFE </h3>
 
           <p>
             From birthdays, baby showers, bachelorette, bridal shower, propsal,
