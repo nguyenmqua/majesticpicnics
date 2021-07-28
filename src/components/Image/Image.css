@@ -1,12 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
 .captions{
-    width: 100%;
+    margin-top: 30px;
     text-align: center;
-    border: 0.5rem  #9b846e;
+    border: 1px solid  #9b846e;
     background: #e6dac8;
-    color: 9b846e;
-    font-family: 'Raleway', sans-serif;
+    color: #9b846e;
+    font-family: 'Rajdhani', sans-serif;
     font-size: 20px;
-    padding: 10px;
-
+    width: 100%;
+    height: auto
 }
+
+.carousel-indicators{
+    margin-bottom: 50px;
+}
+
+.carouselImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
