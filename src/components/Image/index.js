@@ -204,13 +204,12 @@ const Example = (props) => {
 
   return (
     <Carousel activeIndex={activeIndex} next={next} previous={previous}>
-           {slides}
       <CarouselIndicators
         items={items}
         activeIndex={activeIndex}
         onClickHandler={goToIndex}
       />
- 
+      {slides}
       <CarouselControl
         direction="prev"
         directionText="Previous"
