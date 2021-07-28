@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap');
+.captions{
+    width: 100%;
+    text-align: center;
+    border: 0.5rem  #9b846e;
+    background: #e6dac8;
+    color: 9b846e;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+
+}

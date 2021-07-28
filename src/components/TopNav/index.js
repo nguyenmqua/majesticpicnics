@@ -30,7 +30,7 @@ const Navigation = () => {
               <a href="/">Home</a>
             </NavItem>
             <NavItem className="navItem">
-              <a href="/contact">Contact Us</a>
+              <a href="/contact">Book Us</a>
             </NavItem>
             <NavItem className="navItem">
               <a href="/gallery">Gallery</a>
