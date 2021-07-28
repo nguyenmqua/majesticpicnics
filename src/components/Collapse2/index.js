@@ -28,7 +28,7 @@ const Collapses2 = (props) => {
             <p>
               {" "}
               The picnic is held for 2 hours. If you surpass the hour there will
-              be an additional $40 fee
+              be an additional $40 fee.
             </p>
           </CardBody>
         </Card>
