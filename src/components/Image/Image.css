@@ -21,3 +21,10 @@
     margin-right: auto;
 }
 
+@media screen and (min-width: 800px) {
+    .carouselImage {
+        width: 50vh;
+        height: auto;
+    }
+  }
+

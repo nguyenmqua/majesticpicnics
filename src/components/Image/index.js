@@ -60,12 +60,22 @@ const Example = (props) => {
     },
     {
 
+      pic: "./images/Gallery/redblack4.jpg",
+      caption: "Anniversary Set Up (Black and Red)",
+    },
+    {
+
       pic: "./images/Gallery/dreampurple.jpg",
       caption: "Dream Purple",
     },
     {
 
       pic: "./images/Gallery/dreampurple2.jpg",
+      caption: "Dream Purple",
+    },
+    {
+
+      pic: "./images/Gallery/dreampurple3.jpg",
       caption: "Dream Purple",
     },
     {
@@ -81,6 +91,11 @@ const Example = (props) => {
     {
 
       pic: "./images/Gallery/boho.jpg",
+      caption: "Boho Vibes",
+    },
+    {
+
+      pic: "./images/Gallery/boho2.jpg",
       caption: "Boho Vibes",
     },
     {
