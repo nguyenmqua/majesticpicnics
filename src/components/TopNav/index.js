@@ -9,6 +9,8 @@ import {
 } from "reactstrap";
 import Logo from "../../assets/img/logo.jpg";
 import "./TopNav.css";
+import { Link } from 'react-router-dom';
+
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,31 +29,31 @@ const Navigation = () => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem className="navItem">
-              <a href="/">Home</a>
+              <Link color="light" to="/">Home</Link>
             </NavItem>
             <NavItem className="navItem">
-              <a href="/contact">Book Us</a>
+              <Link color="light" to="/contact">Book Us</Link>
             </NavItem>
             <NavItem className="navItem">
-              <a href="/gallery">Gallery</a>
+              <Link color="light" to="/gallery">Gallery</Link>
             </NavItem>
             <NavItem className="navItem">
-              <a href="/faq">F.A.Q/Info</a>
+              <Link color="light" to="/faq">F.A.Q/Info</Link>
             </NavItem>
             <NavItem className="navItem">
-              <a href="https://www.instagram.com/majestic.picnics/?hl=en">
+              <Link color="light" to="https://www.instagram.com/majestic.picnics/?hl=en">
                 <i className="fab fa-instagram fa-1x"></i>
-              </a>
+              </Link>
             </NavItem>
             <NavItem className="navItem">
-              <a href="mailto:majesticpicnicss@gmail.com">
+              <Link color="light" to="mailto:majesticpicnicss@gmail.com">
                 <i className="far fa-envelope"></i>
-              </a>
+              </Link>
             </NavItem>
             <NavItem className="navItem">
-              <a href="https://vm.tiktok.com/ZMdnvwgYK/">
+              <Link color="light" to="https://vm.tiktok.com/ZMdnvwgYK/">
                 <i className="fab fa-tiktok fa-1x"></i>
-              </a>{" "}
+             </Link>
             </NavItem>
           </Nav>
         </Collapse>
