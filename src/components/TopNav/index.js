@@ -41,19 +41,19 @@ const Navigation = () => {
               <Link color="light" to="/faq">F.A.Q/Info</Link>
             </NavItem>
             <NavItem className="navItem">
-              <Link color="light" to="https://www.instagram.com/majestic.picnics/?hl=en">
+              <a href="https://www.instagram.com/majestic.picnics/?hl=en">
                 <i className="fab fa-instagram fa-1x"></i>
-              </Link>
+              </a>
             </NavItem>
             <NavItem className="navItem">
-              <Link color="light" to="mailto:majesticpicnicss@gmail.com">
-                <i className="far fa-envelope"></i>
-              </Link>
+              <a href="mailto:majesticpicnicss@gmail.com">
+                <i className="far fa-envelop fa-1x"></i>
+              </a>
             </NavItem>
             <NavItem className="navItem">
-              <Link color="light" to="https://vm.tiktok.com/ZMdnvwgYK/">
+              <a href="https://vm.tiktok.com/ZMdnvwgYK/">
                 <i className="fab fa-tiktok fa-1x"></i>
-             </Link>
+             </a>
             </NavItem>
           </Nav>
         </Collapse>
