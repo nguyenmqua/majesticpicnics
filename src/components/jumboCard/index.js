@@ -11,9 +11,9 @@ const jumboCard = () => {
         </div>
         <div className="jumboTitle">
           <h3>PICNICS</h3>
-          <a href="/contact">
+          <Link to="/contact">
             <Button className="button">Book Your Picnics Today!</Button>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

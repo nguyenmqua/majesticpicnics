@@ -15,9 +15,9 @@ const AdCard = () => {
             From birthdays, baby showers, bachelorette, bridal shower, propsal,
             engagement party, anniversaries and more!
           </p>
-          <a href="/contact">
+          <Link to="/contact">
             <Button className="button">Book Your Picnics Today!</Button>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

@@ -61,7 +61,7 @@ const Example = (props) => {
     {
 
       pic: "./images/Gallery/redblack4.jpg",
-      caption: "Anniversary Set Up (Black and Red)",
+      caption: "Proposal",
     },
     {
 
