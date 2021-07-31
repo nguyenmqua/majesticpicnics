@@ -31,7 +31,7 @@ const FAQ = () => {
     },
     {
       question: "What happens if there is unforseen bad weather?",
-      answer: "I acknowledge that if there is unforseen bad weather on the day of my picnic I can reschedule within 30 days."
+      answer: "  I understand that the weather can be unexpected at times and for that reason you have the option of rescheduling within 30 days of your original picnic date. Also to host it within a closed area such as a house or I can provide a waterproof tent."
     },
     {
       question: "What happens to damaged property?",
@@ -39,7 +39,7 @@ const FAQ = () => {
     },
     {
       question: "How do I secure my reservation?",
-      answer:"By signing 2 liability waivers and submit at least 50% of the deposit."
+      answer:" By signing 1 liability form waiver and submitting the 50% deposit."
     }
   ];
 
