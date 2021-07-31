@@ -2,6 +2,8 @@ import React from "react";
 import image1 from "../../assets/img/jumbo.jpg";
 import { Button } from "reactstrap";
 import "./JumboCard.css";
+import { Link } from 'react-router-dom';
+
 const jumboCard = () => {
   return (
     <div className="jumboWrapper">

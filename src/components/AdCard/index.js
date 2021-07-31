@@ -2,6 +2,8 @@ import React from "react";
 import image1 from "../../assets/img/sample2/1.jpg";
 import { Button } from "reactstrap";
 import "./AdCard.css";
+import { Link } from 'react-router-dom';
+
 const AdCard = () => {
   return (
     <div className="adWrapper">
